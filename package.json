@@ -21,5 +21,8 @@
     },
     "dependencies": {
         "atom-languageclient": "0.9.9"
-    }
+    },
+    "activationHooks": [
+      "core:loaded-shell-environment"
+    ]    
 }
