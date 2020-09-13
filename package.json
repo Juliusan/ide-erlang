@@ -1,0 +1,25 @@
+{
+    "name": "ide-erlang",
+    "main": "./lib/main",
+    "version": "0.0.0",
+    "description": "Erlang LSP client for Atom using atom-languageclient",
+    "keywords": [
+        "erlang",
+        "atom-ide",
+        "autocomplete",
+        "languageserver",
+        "language-server-protocol",
+        "language-client"
+    ],
+    "activationCommands": {
+        "atom-workspace": "ide-erlang:toggle"
+    },
+    "repository": "https://github.com/juliusan/ide-erlang",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "atom-languageclient": "0.9.9"
+    }
+}

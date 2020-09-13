@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ide-erlang",
+        "command": "ide-erlang:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ide-erlang",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ide-erlang:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
