@@ -20,9 +20,10 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
-        "atom-languageclient": "0.9.9"
+        "atom-languageclient": "0.9.9",
+        "decompress": "^4.2.0"
     },
     "activationHooks": [
-      "core:loaded-shell-environment"
-    ]    
+        "core:loaded-shell-environment"
+    ]
 }
