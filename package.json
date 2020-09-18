@@ -14,7 +14,7 @@
     "activationCommands": {
         "atom-workspace": "ide-erlang:toggle"
     },
-    "repository": "https://github.com/juliusan/ide-erlang",
+    "repository": "https://github.com/Juliusan/ide-erlang.git",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
