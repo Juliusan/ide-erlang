@@ -27,7 +27,7 @@ TODO list:
 # References
 
 This package is based on [`atom-languageclient`](https://github.com/atom/atom-languageclient).<br>
-It uses Language Server Protocol and [`erlang_ls` server](https://github.com/erlang_ls/erlang_ls)
+It uses Language Server Protocol and [`erlang_ls` server](https://github.com/erlang-ls/erlang_ls)
 to provide its functionality.<br>
 The source code of [`ide-java` package](https://github.com/atom/ide-java) was used
 heavily to develop this package.
@@ -39,5 +39,10 @@ this is the first plug-in (package) I've ever written. So I will be very
 grateful for every constructive criticism and help with this project. I believe
 that Erlang is a fantastic language and it should be supported by Atom. I want
 to use Atom to develop my Erlang projects. Please, help me.
+
+This work was inspired by a wonderful talk by `erlang_ls` author Roberto Aloi,
+called ["Boost your productivity with the Erlang Language Server"](https://youtu.be/8FibGzqygo0)
+in [Code BEAM V](https://codesync.global/conferences/code-beam-sto/) conference
+on 11th September, 2020.
 
 <!--![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)-->
