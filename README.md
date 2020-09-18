@@ -1,27 +1,36 @@
 # ide-erlang package
 
-Provides support of Erlang language for Atom IDE, using `"atom-languageclient`
-and `erlang-ls` LSP server.
+Provides support of Erlang language for Atom IDE, using `atom-languageclient`
+and `erlang_ls` LSP server.
 
 **Currently in developement.**
 
 Known and somewhat tested functions:
-* `Erlang-ls` can be downloaded and compiled. It is now downloaded, if it was
+* `erlang_ls` can be downloaded and compiled. It is now downloaded, if it was
   downloaded earlier.
-* `Erlang-ls` is started. Communication through `stdio` only. Debug log is
-  written to `.cache/erlang-ls` in Linux.
+* `erlang_ls` is started. Communication through `stdio` only. Debug log is
+  written to `.cache/erlang_ls` in Linux.
 * `Goto declaration` works for functions (even in other files).
 * Functions, that have specs get them displayed as a tooltip.
 
 TODO list:
-* Move log file close to the package source
-* Make documentation (source) of dependencies available for `erlang-ls`
+* Check Atom dependencies of the package and publish a real Atom package.
+* Move log file close to the package source.
+* Make documentation (source) of dependencies available for `erlang_ls`.
 * Check the loading time. Currently the package almost freezes the computer for
   several seconds while the sources are being analysed. Maybe it is because of
   Atom dev environment? Can standard Erlang modules be indexed once and not every
   time Atom is started?
-* Check all the functions erlang-ls and atom IDE can provide.
+* Check all the functions `erlang_ls` and Atom IDE can provide.
 * Maybe add some configuration possibilities.
+
+# References
+
+This package is based on [`atom-languageclient`](https://github.com/atom/atom-languageclient).<br>
+It uses Language Server Protocol and [`erlang_ls` server](https://github.com/erlang_ls/erlang_ls)
+to provide its functionality.<br>
+The source code of [`ide-java` package](https://github.com/atom/ide-java) was used
+heavily to develop this package.
 
 # Disclaimer
 
