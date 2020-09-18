@@ -12,3 +12,6 @@ build:
 install:
 	ATOM_HOME=${ATOM_HOME} ${PATH_TO_APM} install
 	ATOM_HOME=${ATOM_HOME} ${PATH_TO_APM} link -d
+
+clean:
+	rm -rf server
