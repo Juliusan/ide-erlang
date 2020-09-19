@@ -3,7 +3,7 @@
 Provides support of Erlang language for Atom IDE, using `atom-languageclient`
 and `erlang_ls` LSP server.
 
-**Currently in developement.**
+**Currently in development.**
 
 Known and somewhat tested functions:
 * `erlang_ls` can be downloaded and compiled. It is now downloaded, if it was
