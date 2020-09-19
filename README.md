@@ -23,6 +23,16 @@ TODO list:
 * Check all the functions `erlang_ls` and Atom IDE can provide.
 * Maybe add some configuration possibilities.
 
+Known bugs:
+* Sometimes when downloading server the following error appears:
+    Error: unexpected end of file
+  The following text appears in console:
+    Uncaught (in promise) Error: unexpected end of file
+        at Zlib.zlibOnError [as onerror] (zlib.js:166)
+  It appears that the extraction is attempted before download is complete. However
+  as far as I can see, the promises are handled correctly and debugging confirms
+  it. If such situation occurs, server loading should be restarted.
+
 # References
 
 This package is based on [`atom-languageclient`](https://github.com/atom/atom-languageclient).<br>
