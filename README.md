@@ -15,7 +15,6 @@ Known and somewhat tested functions:
 
 TODO list:
 * Check Atom dependencies of the package and publish a real Atom package.
-* Move log file close to the package source.
 * Make documentation (source) of dependencies available for `erlang_ls`.
 * Check the loading time. Currently the package almost freezes the computer for
   several seconds while the sources are being analysed. Maybe it is because of
@@ -41,7 +40,7 @@ that Erlang is a fantastic language and it should be supported by Atom. I want
 to use Atom to develop my Erlang projects. Please, help me.
 
 This work was inspired by a wonderful talk by `erlang_ls` author Roberto Aloi,
-called ["Boost your productivity with the Erlang Language Server"](https://youtu.be/8FibGzqygo0)
+called ["Boost your productivity with the Erlang Language Server"](https://youtu.be/8FibGzqygo0),
 in [Code BEAM V](https://codesync.global/conferences/code-beam-sto/) conference
 on 11th September, 2020.
 
