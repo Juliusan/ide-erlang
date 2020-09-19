@@ -25,10 +25,14 @@ TODO list:
 
 Known bugs:
 * Sometimes when downloading server the following error appears:
+  ```
     Error: unexpected end of file
+  ```
   The following text appears in console:
+  ```
     Uncaught (in promise) Error: unexpected end of file
         at Zlib.zlibOnError [as onerror] (zlib.js:166)
+  ```
   It appears that the extraction is attempted before download is complete. However
   as far as I can see, the promises are handled correctly and debugging confirms
   it. If such situation occurs, server loading should be restarted.
