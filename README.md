@@ -6,7 +6,7 @@ and `erlang_ls` LSP server.
 **Currently in development.**
 
 Known and somewhat tested functions:
-* `erlang_ls` can be downloaded and compiled. It is now downloaded, if it was
+* `erlang_ls` can be downloaded and compiled. It is not downloaded, if it was
   downloaded earlier.
 * `erlang_ls` is started. Communication through `stdio` only. Debug log is
   written to `.cache/erlang_ls` in Linux.
@@ -14,7 +14,6 @@ Known and somewhat tested functions:
 * Functions, that have specs get them displayed as a tooltip.
 
 TODO list:
-* Check Atom dependencies of the package and publish a real Atom package.
 * Make documentation (source) of dependencies available for `erlang_ls`.
 * Check the loading time. Currently the package almost freezes the computer for
   several seconds while the sources are being analysed. Maybe it is because of
